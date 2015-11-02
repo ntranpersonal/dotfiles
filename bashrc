@@ -28,3 +28,5 @@ alias less='less -R'
 alias pacman='pacman --color=always'
 alias pacaur='pacaur --color=always'
 alias make50='make CC=clang CFLAGS="-ggdb3 -O0 -std=c99 -Wall -Werror" LDLIBS="-lcs50 -lm"'
+
+source /usr/share/doc/pkgfile/command-not-found.bash
