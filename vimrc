@@ -14,7 +14,7 @@ runtime! archlinux.vim
 " Or better yet, read /usr/share/vim/vim74/vimrc_example.vim or the vim manual
 " and configure vim to your own liking!
 
-syntax on
+syntax enable
 set number
 colorscheme desert
 set background=dark
@@ -40,7 +40,7 @@ set smartcase
 set hlsearch
 set incsearch
 set backspace=2
-set whichwrap+=<,>,h,l
+set whichwrap+=<,>,h,l,[,]
 set mouse=a
 nnoremap j gj
 nnoremap k gk
