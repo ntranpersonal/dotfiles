@@ -22,7 +22,16 @@ xterm*faceName: DejaVu Sans Mono:antialias=true:style=Book
 xterm*faceSize: 10
 xterm*saveLines: 8192
 xterm*termName: xterm-256color
-xterm*loginShell: false
 xterm*VT100.geometry: 80x25
+xterm*ScrollBar: true
 xterm*rightScrollBar: true
-xterm*scrollbar: true
+
+URxvt.font: xft:DejaVu Sans Mono:size=10
+URxvt.letterSpace: -1
+URxvt.geometry: 80x25
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt*crollBar: true
+URxvt*scrollBar_right: true
+URxvt.scrollstyle: xterm
